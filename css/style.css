@@ -1,0 +1,134 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: '.SFNSDisplay-Regular', sans-serif;
+  font-size: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+}
+
+nav {
+  background-color: #47ac58;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 10px;
+  position: fixed;
+  width: 420px;
+}
+
+.status-bar {
+  margin-bottom: 20px;
+}
+
+.signal {
+  display: inline-block;
+}
+
+.wifi {
+  display: inline-block;
+
+}
+
+.time {
+  display: inline-block;
+  padding-left: 40%;
+}
+
+.percent {
+  display: inline-block;
+  padding-left: 32%
+
+}
+
+.battery {
+  display: inline-block;
+  float: right;
+}
+
+.arrow-left {
+  display: inline-block;
+}
+
+.arrow-left:hover {
+  color: #757575;
+}
+
+.title {
+  display: inline-block;
+  font-size: 2em;
+  padding-left: 15%
+}
+
+.sync {
+  display: inline-block;
+  float: right;
+  font-size: 2em
+}
+
+.sync:hover {
+  color: #757575;
+}
+
+.bus-list {
+  padding-top: 70px;
+}
+
+.bus-line {
+  background-color: #ffffff;
+  border-top: 1px solid;
+  width: 100%;
+}
+
+.bus-line:hover {
+  background-color: #f5f5f5;
+}
+
+.content {
+  display: inline-block;
+  margin: 3%;
+  padding-left: 3%;
+  width: 85%;
+}
+
+.location {
+  display: inline-block;
+}
+
+.location h1 {
+  font-size: 1.8em;
+  padding-bottom: 10%
+}
+
+.location h3 {
+  color: #8c8c8c;
+  font-size: 1.4em;
+}
+
+.min {
+  float: right;
+  text-align: right;
+
+}
+
+.min h2 {
+  font-size: 1.8em;
+  padding-bottom: 10%;
+}
+
+.min h4 {
+  color: #8c8c8c;
+  font-size: 1.2em;
+}
+
+.arrow {
+  color: #d1d1d6;
+  display: inline-block;
+  float: right;
+  padding: 5% 3% 0 0;
+}

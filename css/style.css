@@ -4,13 +4,12 @@
 
 body {
   background-color: #e5e5e5;
-  font-family: '.SFNSDisplay-Regular', sans-serif;
+  font-family: 'SFNSDisplay-Regular', sans-serif;
   font-size: 10px;
 }
 
 .container {
   margin: 0 auto;
-  width: 420px;
 }
 
 nav {
@@ -19,7 +18,7 @@ nav {
   margin: 0 auto;
   padding: 10px;
   position: fixed;
-  width: 420px;
+  width: 100%;
 }
 
 .status-bar {
@@ -102,7 +101,7 @@ nav {
 
 .location h1 {
   font-size: 1.8em;
-  padding-bottom: 10%
+  padding-bottom: 10%;
 }
 
 .location h3 {
@@ -118,12 +117,12 @@ nav {
 
 .min h2 {
   font-size: 1.8em;
-  padding-bottom: 10%;
 }
 
 .min h4 {
   color: #8c8c8c;
   font-size: 1.2em;
+  padding-top: 10%;
 }
 
 .arrow {
